@@ -19,8 +19,8 @@ An AI-powered code review system that automatically analyzes GitHub pull request
 1. Clone the repository:
   
   ```bash
-  git clone <repository-url>
-  cd code-review-agent
+  git clone https://github.com/theBatman07/Code-Review-AI-Agent.git
+  cd Code-Review-AI-Agent
   ```
   
 2. Install dependencies:
