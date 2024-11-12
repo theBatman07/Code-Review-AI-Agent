@@ -112,3 +112,17 @@ Response:
   }
 }
 ```
+
+## Output
+
+### Analyze 
+
+![output/analyze.png]
+
+### Status
+
+![output/status.png]
+
+### Result
+
+![output/result.png]
