@@ -10,7 +10,6 @@ class OllamaService:
     def __init__(self, model_name: str = "llama3.1:8b"):
         self.base_url = settings.ollama_url
         self.model_name = model_name
-        print("Base url: ",self.base_url, self.model_name)
 
     def make_request(self, prompt: str) -> str:
         """
@@ -25,9 +24,6 @@ class OllamaService:
                 "stream": False
             })
             response.raise_for_status()
-            print("Response: ")
-            # print(response.content)
-            print(response.json()['response'])
             return response.json()['response']
         except requests.exceptions.RequestException as e:
             logger.error(f"Error calling Ollama API: {str(e)}")
