@@ -39,7 +39,7 @@ An AI-powered code review system that automatically analyzes GitHub pull request
 4. Start Redis:
   
   ```bash
-  docker run -d -p 6379:6379 redis
+  redis-server
   ```
   
 5. Start Celery worker:
