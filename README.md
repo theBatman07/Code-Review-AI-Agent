@@ -1,6 +1,6 @@
 # Autonomous Code Review Agent
 
-An AI-powered code review system that automatically analyzes GitHub pull requests and provides detailed feedback using Google's Gemini LLM.
+An AI-powered code review system that automatically analyzes GitHub pull requests and provides detailed feedback using Llama 3.1 LLM.
 
 ## Features
 
