@@ -117,12 +117,12 @@ Response:
 
 ### Analyze 
 
-![output/analyze.png]
+![Analyze](output/analyze.png)
 
 ### Status
 
-![output/status.png]
+![Status](output/status.png)
 
 ### Result
 
-![output/result.png]
+![Result](output/result.png)
