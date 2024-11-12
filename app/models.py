@@ -34,7 +34,6 @@ class AnalysisResult(BaseModel):
     results: Optional[Dict] = None
 
     def dict(self, *args, **kwargs):
-        # Convert to dictionary and ensure all nested objects are serializable
         d = super().dict(*args, **kwargs)
         if isinstance(d['status'], TaskStatus):
             d['status'] = d['status'].value

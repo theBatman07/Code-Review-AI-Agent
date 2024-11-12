@@ -29,7 +29,6 @@ async def get_results(task_id: str) -> AnalysisResult:
         raise HTTPException(status_code=404, detail="Results not ready")
     
     result = task.get()
-    # Convert the dictionary to AnalysisResult model
     return AnalysisResult(
         task_id=task_id,
         status=result['status'],

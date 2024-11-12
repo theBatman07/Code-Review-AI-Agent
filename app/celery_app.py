@@ -12,6 +12,5 @@ celery_app = Celery(
 def analyze_pr_task(repo_url: str, pr_number: int, github_token: str = None) -> dict:
     analyzer = CodeAnalyzer()
     result = analyzer.analyze_pr(repo_url, pr_number, github_token)
-    # Add task_id to the result
     result['task_id'] = analyze_pr_task.request.id
     return result
